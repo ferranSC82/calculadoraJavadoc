@@ -1,5 +1,15 @@
-
+/**
+ * Classe principal del programa. Mostra l'ús de la classe {@link Calculadora}
+ * executant diverses operacions matemàtiques bàsiques i avançades.
+ */
 public class Main {
+    
+    /**
+     * Punt d'entrada del programa. Crea una instància de {@code Calculadora}
+     * i mostra per consola els resultats de diverses operacions.
+     *
+     * @param args Arguments de la línia de comandes (no s'utilitzen en aquest programa).
+     */
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
 
